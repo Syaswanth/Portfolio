@@ -184,7 +184,12 @@ body{
     line-height: 1.4;
     margin-bottom: 3rem;
 }
-#services{
+.about-text h6{
+    background: linear-gradient(rgba(197, 23, 136, 0.1),#ff004f);
+    font-size: 25px;
+
+}
+.services{
     color: aliceblue;
     font-size: 20px;
     line-height: 1.5;
@@ -450,6 +455,7 @@ section{
 .path-2{animation: animate-path2 1s 1s linear forwards;}
 .path-3{animation: animate-path3 1s 1s linear forwards;}
 .path-4{animation: animate-path4 1s 1s linear forwards;}
+
 @keyframes animate-path1{
     100%{
         stroke-dashoffset: 50;
@@ -471,10 +477,10 @@ section{
 }
 @keyframes animate-path4{
     100%{
-        stroke-dashoffset: 75;
+        stroke-dashoffset: 100;
     }
-    
 }
+
 
 .radial-bar .percentage{
     position: absolute;
