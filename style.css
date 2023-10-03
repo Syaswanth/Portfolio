@@ -6,6 +6,11 @@
     font-family: 'poppins',sans-serif;
 
 }
+title{
+    
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
 body{
     color: #ededed;
     background: #081b29;
@@ -188,6 +193,9 @@ body{
 .about-text h6{
     background: linear-gradient(rgba(197, 23, 136, 0.1),#ff004f);
     font-size: 25px;
+    opacity: 0;
+    animation: slideBottom 3s ease forwards;
+    animation-delay: 1s;
 
 }
 .services{
@@ -276,6 +284,10 @@ section{
     flex-wrap:wrap ;
 
 }
+h1 .sub-title span{
+    padding-top: 250px;
+    margin-bottom: -160px;
+}
 .container1{
     width: 600px;
     height: 500px;
@@ -304,8 +316,9 @@ section{
     margin-bottom: 0;
 }
 .Technical-bars .bar .info{
-    /* margin-top: 5px; */
+    
     margin-bottom: 5px;
+   
     
 }
 .Technical-bars .bar .info span{
@@ -349,7 +362,7 @@ section{
     width: 78%;
 }
 .progress-line.c span{
-    width: 70%;
+    width: 50%;
 }   
 .progress-line.python span{
     width: 80%;
@@ -367,23 +380,23 @@ section{
     opacity: 0;
 
 }
-.progress-line.html span::after{
+.progress-line.html span:after{
     content: 90%;
 }
-.progress-line.css span::after{
+.progress-line.css span:after{
     content: 85%;
 }
-.progress-line.js span::after{
+.progress-line.js span:after{
     content: 78%;
 }
-.progress-line.c span::after{
-    content: 70%;
+.progress-line.c span:after{
+    content: 50%;
 }
-.progress-line.python span::after{
+.progress-line.python span:after{
     content: 80%;
 } 
 .progress-line span::before{
-    content: " ";
+    /* content: " "; */
     position: absolute;
     width: 0;
     height: 0;
@@ -511,7 +524,7 @@ section{
 
 }
 .main-text{
-    padding-top: 130px;
+    padding-top: 80px;
     margin-top: 200px;
 }
 .main-text h2{
@@ -559,7 +572,7 @@ section{
 
 }
 .layer h5{
-    color: #000;
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
