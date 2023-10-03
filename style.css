@@ -708,6 +708,7 @@ h1 .sub-title span{
 }
 .contact-form form{
     position: relative;
+    
 }
 .contact-form form input,form textarea{
     border: none;
@@ -720,6 +721,9 @@ h1 .sub-title span{
     font-weight: 600;
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
 
 }
 .contact-form textarea{
