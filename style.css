@@ -199,11 +199,12 @@ body{
   }
 .about-text h6{
     background: linear-gradient(rgba(197, 23, 136, 0.1),#ff004f);
-    font-size: 40px;
+    font-size: 38px;
     font-family: 'Young Serif', serif;
     opacity: 0;
     animation: slideBottom 3s ease forwards;
     animation-delay: 1s;
+     font-family: cursive;
     
     color: transparent;
     background: linear-gradient(
