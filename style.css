@@ -190,14 +190,37 @@ body{
     line-height: 1.4;
     margin-bottom: 3rem;
 }
+:root {
+    --color-1: #186cb8;
+    --color-2: #2a9a9f;
+    --color-3: #f98d00;
+    --color-4: #e83611;
+    --color-5: #f1b211;
+  }
 .about-text h6{
     background: linear-gradient(rgba(197, 23, 136, 0.1),#ff004f);
-    font-size: 25px;
+    font-size: 40px;
+    font-family: 'Young Serif', serif;
     opacity: 0;
     animation: slideBottom 3s ease forwards;
     animation-delay: 1s;
-
+    
+    color: transparent;
+    background: linear-gradient(
+         var(--color-1) 19%,
+        transparent 19%, transparent 20%,
+        var(--color-2) 20%, var(--color-2) 39%,
+        transparent 39%, transparent 40%,
+        var(--color-3) 40%, var(--color-3) 59%,
+        transparent 59%,transparent 60%,
+        var(--color-4) 60%, var(--color-4) 79%,
+        transparent 79%, transparent 80%, 
+        var(--color-5) 80%
+      );
+      -webkit-background-clip: text;
 }
+
+
 .services{
     color: aliceblue;
     font-size: 20px;
